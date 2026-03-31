@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.poc.aem.core.core.filters;
+package com.poc.aem.core.filters;
 
 import org.osgi.annotation.versioning.Version;

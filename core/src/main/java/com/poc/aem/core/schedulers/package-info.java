@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.poc.aem.core.core.schedulers;
+package com.poc.aem.core.schedulers;
 
 import org.osgi.annotation.versioning.Version;
