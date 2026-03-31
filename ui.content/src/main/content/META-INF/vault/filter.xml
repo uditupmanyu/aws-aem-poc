@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aem-aws-project" mode="merge"/>
+    <filter root="/content/aem-aws-project" mode="merge"/>
+    <filter root="/content/dam/aem-aws-project" mode="merge">
+        <exclude pattern="/content/dam/aem-aws-project(/.*)?"/>
+        <include pattern="/content/dam/aem-aws-project/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aem-aws-project/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aem-aws-project" mode="merge"/>
+</workspaceFilter>
